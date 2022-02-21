@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Contrainer{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/back-01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 15px 8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(9, 60, 107);
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 600;
+    padding: 8px 18px;
+    user-select: none;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: #0169b2;
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+
+.content .boxtext{
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .boxtext h1{
+    color: #ec830bc5;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    font-weight: 700;
+    font-family: 'Lobster Two', cursive;
+}
+
+.content .boxtext p{
+    font-size: 1.2em;
+    color: rgb(43, 42, 42);
+}
+
+.content .boxtext a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    color: #31489f;
+    font-size: 1.2em;
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow: #393a3a;
+    border: 2px solid #31489f;
+
+}
+
+.content .boxtext a:hover{
+    background: #0169b2;
+    color: #fff;
+    transition: 0.5s;
+}
